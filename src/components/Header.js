@@ -13,11 +13,13 @@ const Header = (props) => (
                 <h1>Mansour Jalaly</h1>
             <TypistLoop interval={500}>
                 {[
-                    'Software Developer ',
-                    'Blockchain Specialist ',
-                    'BJJ White Belt ',
+                    'Blockchain Developer ',
+                    'Web/Mobile Developer ',
+                    'King`s College Student of Computer Science ',
+                    'CyberSec Analyst ',
+                    'BJJ 2nd Degree White Belt ',
                 ].map(text => 
-                    <Typist startDelay={250}
+                    <Typist startDelay={700}
                     cursor={{show:true, element:'▎'}}>
                     {text}
                     <Typist.Delay ms={500} />
@@ -29,8 +31,8 @@ const Header = (props) => (
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Projects</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Blog</a></li>
                 {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li> */}
             </ul>
         </nav>
