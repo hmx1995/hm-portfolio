@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Typist from 'react-typist'
+import TypistLoop from 'react-typist-loop'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -9,8 +11,19 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Mansour Jalaly</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+            <TypistLoop interval={500}>
+                {[
+                    'Software Developer ',
+                    'Blockchain Specialist ',
+                    'BJJ White Belt ',
+                ].map(text => 
+                    <Typist startDelay={250}
+                    cursor={{show:true, element:'▎'}}>
+                    {text}
+                    <Typist.Delay ms={500} />
+                    <Typist.Backspace count={text.length}/>
+                  </Typist>)}
+              </TypistLoop>
             </div>
         </div>
         <nav>
