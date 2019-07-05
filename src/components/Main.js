@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import "react-step-progress-bar/styles.css"
+import { ProgressBar, Step } from 'react-step-progress-bar'
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
@@ -15,9 +17,50 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          {/* <span className="image main"><img src={pic01} alt="" /></span> */}
+          <p>Student of Computer Science at Kings College London, Working towards a 1st. My interests lie in the field of Blockchain, Webdev, Mobile Dev and CyberSecuirty.</p>
+          <p>I am active in the Blockchain scene, being a Core Developer at KCL Blockchain. With our team placing in podium position during the R3 Global Pitch competition. The competition being the likes of Oxford, Stamford, NYU and Imperial</p>
+          <p>I enjoy freelancing WebApp Development to increase my knowledge and sharpen my programming skill set. Check out my <a href="https://github.com/CodeForMMA" target="_blank">Github</a> for my previous projects, a lot more to come!</p>
+          <h3 className="major">Skills</h3>
+          <h4>HTML5/CSS3/SCSS</h4>
+            <span>
+              <ProgressBar percent={90} filledBackground="linear-gradient(to right, #000000, #ffffff)"/>
+            </span>
+            <br />
+          <h4>JavaScript (React/Node/Gatsby)</h4>
+            <span>
+              <ProgressBar percent={75} filledBackground="linear-gradient(to right, #000000, #ffffff)"/>
+            </span>
+            <br />
+          <h4>Java</h4>
+            <span>
+              <ProgressBar percent={70} filledBackground="linear-gradient(to right, #000000, #ffffff)"/>
+            </span>
+            <br />
+          <h4>Python</h4>
+            <span>
+              <ProgressBar percent={60} filledBackground="linear-gradient(to right, #000000, #ffffff)"/>
+            </span>
+            <br />
+          <h4>SQL (MySQL)</h4>
+            <span>
+            <ProgressBar percent={60} filledBackground="linear-gradient(to right, #000000, #ffffff)"/>
+            </span>
+            <br />
+          <h4>GraphQL</h4>
+            <span>
+            <ProgressBar percent={55} filledBackground="linear-gradient(to right, #000000, #ffffff)"/>
+            </span>
+            <br />
+          <h4>Kali Linux</h4>
+            <span>
+              <ProgressBar percent={50} filledBackground="linear-gradient(to right, #000000, #ffffff)"/>
+            </span>
+            <br />
+          <h4>Corda</h4>
+            <span>
+              <ProgressBar percent={40} filledBackground="linear-gradient(to right, #000000, #ffffff)"/>
+            </span>
           {close}
         </article>
 
