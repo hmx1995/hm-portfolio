@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { Container, Row, Col } from 'react-grid-system'
 
 import SlideToggle from "react-slide-toggle"
 
@@ -66,42 +67,52 @@ class Main extends React.Component {
 
         <article id="project" className={`${this.props.article === 'project' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Projects</h2>
-          <SlideToggle
-            render={({ onToggle, setCollapsibleElement }) => (
-              <div className="my-collapsible">
-                <button className="my-collapsible__toggle" onClick={onToggle}>
-                  toggle
-                </button>
-                <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                  <div className="my-collapsible__content-inner">Collapsible content</div>
-                </div>
-              </div>
-            )}
-          />
-          <SlideToggle
-            render={({ onToggle, setCollapsibleElement }) => (
-              <div className="my-collapsible">
-                <button className="my-collapsible__toggle" onClick={onToggle}>
-                  toggle
-                </button>
-                <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                  <div className="my-collapsible__content-inner">Collapsible content A</div>
-                </div>
-              </div>
-            )}
-          />
-          <SlideToggle
-            render={({ onToggle, setCollapsibleElement }) => (
-              <div className="my-collapsible">
-                <button className="my-collapsible__toggle" onClick={onToggle}>
-                  toggle
-                </button>
-                <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                  <div className="my-collapsible__content-inner">Collapsible content B</div>
-                </div>
-              </div>
-            )}
-          />
+          <Container>
+            <Row>
+              <Col sm={4}>
+                <SlideToggle
+                    render={({ onToggle, setCollapsibleElement }) => (
+                      <div className="my-collapsible">
+                        <button className="my-collapsible__toggle" onClick={onToggle}>
+                          toggle
+                        </button>
+                        <div className="my-collapsible__content" ref={setCollapsibleElement}>
+                          <div className="my-collapsible__content-inner">Collapsible content</div>
+                        </div>
+                      </div>
+                    )}
+                  />
+              </Col>
+              <Col sm={4}>
+                <SlideToggle
+                    render={({ onToggle, setCollapsibleElement }) => (
+                      <div className="my-collapsible">
+                        <button className="my-collapsible__toggle" onClick={onToggle}>
+                          toggle
+                        </button>
+                        <div className="my-collapsible__content" ref={setCollapsibleElement}>
+                          <div className="my-collapsible__content-inner">Collapsible content</div>
+                        </div>
+                      </div>
+                    )}
+                  />
+              </Col>
+              <Col sm={4}>
+                <SlideToggle
+                    render={({ onToggle, setCollapsibleElement }) => (
+                      <div className="my-collapsible">
+                        <button className="my-collapsible__toggle" onClick={onToggle}>
+                          toggle
+                        </button>
+                        <div className="my-collapsible__content" ref={setCollapsibleElement}>
+                          <div className="my-collapsible__content-inner">Collapsible content</div>
+                        </div>
+                      </div>
+                    )}
+                  />
+              </Col>
+            </Row>
+          </Container>
         </article>
 
         <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
