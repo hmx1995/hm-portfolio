@@ -4,18 +4,28 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "@material-ui/core": "^4.2.0",
+    "@material-ui/styles": "^4.2.0",
+    "@material/react-card": "^0.14.1",
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.2.9",
     "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-material-ui": "^2.1.4",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sass": "^2.0.11",
     "node-sass": "^4.11.0",
     "react": "^16.8.5",
+    "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.5",
+    "react-grid-system": "^4.4.9",
     "react-helmet": "^5.2.0",
+    "react-slide-toggle": "^0.2.5",
+    "react-slidedown": "^2.4.3",
     "react-step-progress-bar": "^1.0.3",
     "react-typist": "^2.0.5",
-    "react-typist-loop": "0.0.5"
+    "react-typist-loop": "0.0.5",
+    "react-ui-cards": "^1.5.3"
   },
   "keywords": [
     "gatsby"
