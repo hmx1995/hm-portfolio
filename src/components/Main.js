@@ -26,7 +26,7 @@ class Main extends React.Component {
           {/* <span className="image main"><img src={pic01} alt="" /></span> */}
           <p>Student of Computer Science at Kings College London, Working towards a 1st. My interests lie in the field of Blockchain, Webdev, Mobile Dev and CyberSecuirty.</p>
           <p>I am active in the Blockchain scene, being a Core Developer at KCL Blockchain. With our team placing in podium position during the R3 Global Pitch competition. The competition being the likes of Oxford, Stamford, NYU and Imperial</p>
-          <p>I enjoy freelancing WebApp Development to increase my knowledge and sharpen my programming skill set. Check out my <a href="https://github.com/CodeForMMA" target="_blank">Github</a> for my previous projects, a lot more to come!</p>
+          <p>I enjoy freelancing WebApp Development to increase my knowledge and sharpen my programming skill set. Check out my <a href="https://github.com/CodeForMMA" target="_blank" rel="noopener noreferrer">Github</a> for my previous projects, a lot more to come!</p>
           <h3 className="major">Skills</h3>
           <h4>HTML5/CSS3/SCSS</h4>
             <span>
@@ -77,7 +77,7 @@ class Main extends React.Component {
               <Col sm={12}>
                 <center>
                   <p>
-                    Checkout my Github for my past projects! Toggle the tabs for my current projects!
+                    Checkout my Github for my previous projects! Toggle the tabs for my current projects!
                   </p>
                 </center>
               </Col>
@@ -86,7 +86,7 @@ class Main extends React.Component {
               <Col sm={12}>
                 <div className="icon">
                   <center>
-                    <a href="https://github.com/CodeForMMA" target="_blank" className="icon">
+                    <a href="https://github.com/CodeForMMA" target="_blank" rel="noopener noreferrer" className="icon">
                       <FontAwesomeIcon icon={faGithub} size={"4x"} />
                     </a>
                   </center>
@@ -130,7 +130,9 @@ class Main extends React.Component {
                           <div className="my-collapsible__content" ref={setCollapsibleElement}>
                             <div className="my-collapsible__content-inner" style={{ opacity: Math.max(0.1, progress) }}>
                               <br />
-                                No ongoing development currently!
+                              <a href="https://github.com/CodeForMMA/portfolio" target="_blank" rel="noopener noreferrer">
+                                On going Development!
+                              </a>
                             </div>
                           </div>
                         </div>

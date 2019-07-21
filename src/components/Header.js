@@ -6,7 +6,7 @@ import TypistLoop from 'react-typist-loop'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <a href="https://www.linkedin.com/in/mansour-jalaly/" target="_blank" className="icon fa-linkedin" />
+            <a href="https://www.linkedin.com/in/mansour-jalaly/" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin" />
         </div>
         <div className="content">
             <div className="inner">
