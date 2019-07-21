@@ -12,6 +12,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTerminal, faCode } from '@fortawesome/free-solid-svg-icons'
 import { faBtc, faGithub} from '@fortawesome/free-brands-svg-icons'
 
+import { Link } from "gatsby"
+
 
 class Main extends React.Component {
   render() {
@@ -171,7 +173,19 @@ class Main extends React.Component {
 
         <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Blog</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <div>
+            <blockquote>
+            “Read in the name of your Lord Who created. He created man from a clot. Read and your Lord is Most Honorable, Who taught (to write) with the pen. Taught man what he knew not.” 
+             - 96 Al-'Alaq The Clot - Quran
+            </blockquote>
+          </div>
+
+          <div>
+            <center>
+              <button className="logo" onClick={() => <Link to="/page-2"/>}>Blog</button>
+            </center>
+          </div>
+
           {close}
         </article>
 
