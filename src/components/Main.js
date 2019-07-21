@@ -10,7 +10,7 @@ import { ProgressBar} from 'react-step-progress-bar'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTerminal, faCode } from '@fortawesome/free-solid-svg-icons'
-import { faBtc } from '@fortawesome/free-brands-svg-icons'
+import { faBtc, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 
 class Main extends React.Component {
@@ -76,13 +76,27 @@ class Main extends React.Component {
             <Row>
               <Col sm={12}>
                 <center>
-                  
+                  <p>
+                    Checkout my Github for my past projects! Toggle the tabs for my current projects!
+                  </p>
                 </center>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={12}>
+                <div className="icon">
+                  <center>
+                    <a href="" target="_blank" className="icon">
+                      <FontAwesomeIcon icon={faGithub} size={"4x"} />
+                    </a>
+                  </center>
+                </div>
               </Col>
             </Row>
             <Row>
               <Col sm={4}>
                 <center>
+                  <br />
                   <h4>Software Development</h4>
                   <SlideToggle
                   collapsed = {true}
@@ -92,10 +106,9 @@ class Main extends React.Component {
                           <FontAwesomeIcon icon={faTerminal} size={"lg"} />
                         </button>
                         <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                            <div className="my-collapsible__content-inner"
-                              style={{ opacity: Math.max(0.1, progress) }}>
+                            <div className="my-collapsible__content-inner" style={{ opacity: Math.max(0.1, progress) }}>
                               <br />
-                              Collapsible content
+                                No ongoing development currently!
                             </div>
                         </div>
                       </div>
@@ -105,6 +118,7 @@ class Main extends React.Component {
               </Col>
               <Col sm={4}>
                 <center>
+                  <br />
                   <h4>Web Development</h4>
                   <SlideToggle
                     collapsed = {true}
@@ -114,10 +128,9 @@ class Main extends React.Component {
                             <FontAwesomeIcon icon={faCode} size={"lg"}/>
                           </button>
                           <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                            <div className="my-collapsible__content-inner"
-                              style={{ opacity: Math.max(0.1, progress) }}>
+                            <div className="my-collapsible__content-inner" style={{ opacity: Math.max(0.1, progress) }}>
                               <br />
-                              Collapsible content
+                                No ongoing development currently!
                             </div>
                           </div>
                         </div>
@@ -127,6 +140,7 @@ class Main extends React.Component {
               </Col>
               <Col sm={4}>
               <center>
+                <br />
                 <h4>Blockchain Development</h4>
                 <SlideToggle
                   collapsed = {true}
@@ -138,10 +152,9 @@ class Main extends React.Component {
                           </div>
                         </button>
                         <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                          <div className="my-collapsible__content-inner"
-                              style={{ opacity: Math.max(0.1, progress) }}>
+                            <div className="my-collapsible__content-inner" style={{ opacity: Math.max(0.1, progress) }}>
                               <br />
-                              Collapsible content
+                                No ongoing development currently!
                             </div>
                         </div>
                       </div>
