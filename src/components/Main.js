@@ -8,6 +8,11 @@ import SlideToggle from "react-slide-toggle"
 import "react-step-progress-bar/styles.css"
 import { ProgressBar} from 'react-step-progress-bar'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTerminal, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faBtc } from '@fortawesome/free-brands-svg-icons'
+
+
 class Main extends React.Component {
   render() {
     let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
@@ -69,50 +74,81 @@ class Main extends React.Component {
           <h2 className="major">Projects</h2>
           <Container>
             <Row>
+              <Col sm={12}>
+                <center>
+                  
+                </center>
+              </Col>
+            </Row>
+            <Row>
               <Col sm={4}>
-                <SlideToggle
+                <center>
+                  <h4>Software Development</h4>
+                  <SlideToggle
+                  collapsed = {true}
                     render={({ onToggle, setCollapsibleElement }) => (
                       <div className="my-collapsible">
                         <button className="my-collapsible__toggle" onClick={onToggle}>
-                          toggle
+                          <FontAwesomeIcon icon={faTerminal} size={"lg"} />
                         </button>
                         <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                          <div className="my-collapsible__content-inner">Collapsible content</div>
+                        <div className="my-collapsible__content-inner">
+                            <br />
+                            Collapsible content
+                          </div>
                         </div>
                       </div>
                     )}
                   />
+                </center>
               </Col>
               <Col sm={4}>
-                <SlideToggle
-                    render={({ onToggle, setCollapsibleElement }) => (
-                      <div className="my-collapsible">
-                        <button className="my-collapsible__toggle" onClick={onToggle}>
-                          toggle
-                        </button>
-                        <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                          <div className="my-collapsible__content-inner">Collapsible content</div>
+                <center>
+                  <h4>Web Development</h4>
+                  <SlideToggle
+                    collapsed = {true}
+                      render={({ onToggle, setCollapsibleElement }) => (
+                        <div className="my-collapsible">
+                          <button className="my-collapsible__toggle" onClick={onToggle}>
+                            <FontAwesomeIcon icon={faCode} size={"lg"}/>
+                          </button>
+                          <div className="my-collapsible__content" ref={setCollapsibleElement}>
+                          <div className="my-collapsible__content-inner">
+                            <br />
+                            Collapsible content
+                          </div>
+                          </div>
                         </div>
-                      </div>
-                    )}
-                  />
+                      )}
+                    />
+                </center>
               </Col>
               <Col sm={4}>
+              <center>
+                <h4>Blockchain Development</h4>
                 <SlideToggle
+                  collapsed = {true}
                     render={({ onToggle, setCollapsibleElement }) => (
                       <div className="my-collapsible">
                         <button className="my-collapsible__toggle" onClick={onToggle}>
-                          toggle
+                          <div className="logo">
+                            <FontAwesomeIcon icon={faBtc} size={"lg"} />
+                          </div>
                         </button>
                         <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                          <div className="my-collapsible__content-inner">Collapsible content</div>
+                          <div className="my-collapsible__content-inner">
+                            <br />
+                            Collapsible content
+                          </div>
                         </div>
                       </div>
                     )}
                   />
+              </center>
               </Col>
             </Row>
           </Container>
+          {close}
         </article>
 
         <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
