@@ -86,16 +86,17 @@ class Main extends React.Component {
                   <h4>Software Development</h4>
                   <SlideToggle
                   collapsed = {true}
-                    render={({ onToggle, setCollapsibleElement }) => (
+                    render={({ onToggle, setCollapsibleElement, progress }) => (
                       <div className="my-collapsible">
                         <button className="my-collapsible__toggle" onClick={onToggle}>
                           <FontAwesomeIcon icon={faTerminal} size={"lg"} />
                         </button>
                         <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                        <div className="my-collapsible__content-inner">
-                            <br />
-                            Collapsible content
-                          </div>
+                            <div className="my-collapsible__content-inner"
+                              style={{ opacity: Math.max(0.1, progress) }}>
+                              <br />
+                              Collapsible content
+                            </div>
                         </div>
                       </div>
                     )}
@@ -107,16 +108,17 @@ class Main extends React.Component {
                   <h4>Web Development</h4>
                   <SlideToggle
                     collapsed = {true}
-                      render={({ onToggle, setCollapsibleElement }) => (
+                      render={({ onToggle, setCollapsibleElement, progress}) => (
                         <div className="my-collapsible">
                           <button className="my-collapsible__toggle" onClick={onToggle}>
                             <FontAwesomeIcon icon={faCode} size={"lg"}/>
                           </button>
                           <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                          <div className="my-collapsible__content-inner">
-                            <br />
-                            Collapsible content
-                          </div>
+                            <div className="my-collapsible__content-inner"
+                              style={{ opacity: Math.max(0.1, progress) }}>
+                              <br />
+                              Collapsible content
+                            </div>
                           </div>
                         </div>
                       )}
@@ -128,7 +130,7 @@ class Main extends React.Component {
                 <h4>Blockchain Development</h4>
                 <SlideToggle
                   collapsed = {true}
-                    render={({ onToggle, setCollapsibleElement }) => (
+                    render={({ onToggle, setCollapsibleElement, progress }) => (
                       <div className="my-collapsible">
                         <button className="my-collapsible__toggle" onClick={onToggle}>
                           <div className="logo">
@@ -136,10 +138,11 @@ class Main extends React.Component {
                           </div>
                         </button>
                         <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                          <div className="my-collapsible__content-inner">
-                            <br />
-                            Collapsible content
-                          </div>
+                          <div className="my-collapsible__content-inner"
+                              style={{ opacity: Math.max(0.1, progress) }}>
+                              <br />
+                              Collapsible content
+                            </div>
                         </div>
                       </div>
                     )}
