@@ -86,7 +86,7 @@ class Main extends React.Component {
               <Col sm={12}>
                 <div className="icon">
                   <center>
-                    <a href="" target="_blank" className="icon">
+                    <a href="https://github.com/CodeForMMA" target="_blank" className="icon">
                       <FontAwesomeIcon icon={faGithub} size={"4x"} />
                     </a>
                   </center>
