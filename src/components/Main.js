@@ -27,8 +27,8 @@ class Main extends React.Component {
           <h2 className="major">Intro</h2>
           {/* <span className="image main"><img src={pic01} alt="" /></span> */}
           <p>Student of Computer Science at Kings College London, Working towards a 1st. My interests lie in the field of Blockchain, Webdev, Mobile Dev and CyberSecuirty.</p>
-          <p>I am active in the Blockchain scene, being a Core Developer at KCL Blockchain. With our team placing in podium position during the R3 Global Pitch competition. The competition being the likes of Oxford, Stamford, NYU and Imperial</p>
-          <p>I enjoy freelancing WebApp Development to increase my knowledge and sharpen my programming skill set. Check out my <a href="https://github.com/CodeForMMA" target="_blank" rel="noopener noreferrer">Github</a> for my previous projects, a lot more to come!</p>
+          <p>I am active in the Blockchain scene, being a Core Developer at KCL Blockchain. With our team placing in podium position during the R3 Global Pitch competition. The competition being the likes of Cambridge, Oxford, Stamford, NYU and Imperial. </p>
+          <p>Complementing my sedentary lifestyle I actively partake in Brazilian Jui Jitsu having competed at white belt level, as well as being an avid strength and conditioning participant.</p>
           <h3 className="major">Skills</h3>
           <h4>HTML5/CSS3/SCSS</h4>
             <span>
@@ -79,7 +79,7 @@ class Main extends React.Component {
               <Col sm={12}>
                 <center>
                   <p>
-                    Checkout my Github for my previous projects! Toggle the tabs for my current projects!
+                    Checkout Github for my previous projects! Toggle tabs for current projects!
                   </p>
                 </center>
               </Col>
