@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-dimension-v2",
   "description": "Gatsby Starter - Dimension V2",
-  "version": "1.0.0",
+  "version": "2.1.1",
   "author": "Hunter Chang",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
