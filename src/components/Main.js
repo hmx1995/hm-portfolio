@@ -176,13 +176,37 @@ class Main extends React.Component {
           <div>
             <blockquote>
             “Read in the name of your Lord Who created. He created man from a clot. Read and your Lord is Most Honorable, Who taught (to write) with the pen. Taught man what he knew not.” 
-             - 96 Al-'Alaq The Clot - Quran
+            <br/>
+            <br/>
+            - Al-'Alaq The Clot - Quran
             </blockquote>
+            <center> 
+              <p>
+                As this project is an ongoing one, I will be developing a blog to capture my thoughts and ideas.
+              </p>
+            </center>
           </div>
 
           <div>
             <center>
-              <button className="logo" onClick={() => <Link to="/page-2"/>}>Blog</button>
+            <SlideToggle
+                  collapsed = {true}
+                    render={({ onToggle, setCollapsibleElement, progress }) => (
+                      <div className="my-collapsible">
+                        <button className="my-collapsible__toggle" onClick={onToggle}>
+                          <div>
+                            Blog
+                          </div>
+                        </button>
+                        <div className="my-collapsible__content" ref={setCollapsibleElement}>
+                            <div className="my-collapsible__content-inner" style={{ opacity: Math.max(0.1, progress) }}>
+                              <br />
+                                Coming Soon!
+                            </div>
+                        </div>
+                      </div>
+                    )}
+                  />
             </center>
           </div>
 
