@@ -23,14 +23,16 @@ class Main extends React.Component {
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
-        <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Intro</h2>
-          {/* <span className="image main"><img src={pic01} alt="" /></span> */}
-          <p>Student of Computer Science at Kings College London, Working towards a 1st. My interests lie in the field of Blockchain, Webdev, Mobile Dev and CyberSecuirty.</p>
-          <p>I am active in the Blockchain scene, being a Core Developer at KCL Blockchain. With our team placing in podium position during the R3 Global Pitch competition. The competition being the likes of Cambridge, Oxford, Stamford, NYU and Imperial. </p>
-          <p>Complementing my sedentary lifestyle I actively partake in Brazilian Jui Jitsu having competed at white belt level, as well as being an avid strength and conditioning participant.</p>
-          <h3 className="major">Skills</h3>
-          <h4>HTML5/CSS3/SCSS</h4>
+        <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ?
+                'timeout' : ''}`} style={{display:'none'}}> <h2 className="major">Intro</h2> {/* <span className="image
+                    main"><img src={pic01} alt="" /></span> */} <p>Student of Computer Science at Kings College London,
+                        Working towards a 1st. My interests lie in the field of Blockchain, Webdev, Mobile Dev and
+                        CyberSecuirty.</p> <p>I am active in the Blockchain scene, being a Core Developer at KCL
+                            Blockchain. With our team placing in podium position during the R3 Global Pitch competition.
+                            The competition being the likes of Cambridge, Oxford, Stamford, NYU and Imperial. </p>
+                                <p>Complementing my sedentary lifestyle I actively partake in Brazilian Jui Jitsu having
+                                    competed at white belt level, as well as being an avid strength and conditioning
+        participant.</p> <h3 className="major">Skills</h3> <h4>HTML5/CSS3/SCSS</h4>
             <span>
               <ProgressBar percent={90} filledBackground="linear-gradient(to right, #000000, #ffffff)"/>
             </span>
@@ -180,11 +182,6 @@ class Main extends React.Component {
             <br/>
             - Al-'Alaq The Clot - Quran
             </blockquote>
-            <center> 
-              <p>
-                As this project is an ongoing one, I will be developing a blog to capture my thoughts and ideas.
-              </p>
-            </center>
           </div>
 
           <div>
