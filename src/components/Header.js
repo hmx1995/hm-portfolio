@@ -13,10 +13,10 @@ const Header = (props) => (
                 <h1>Mansour Jalaly</h1>
             <TypistLoop interval={500}>
                 {[
-                    'Blockchain Developer ',
-                    'Web/Mobile Developer ',
-                    'King`s College Student of Computer Science ',
-                    'CyberSec Analyst ',
+                    'Kings College London Graduate ',
+                    'Blockchain Engineer ',
+                    'Security Engineer ',
+                    'Web Developer ',
                     'BJJ 2nd Degree White Belt ',
                 ].map(text => 
                     <Typist startDelay={700}
