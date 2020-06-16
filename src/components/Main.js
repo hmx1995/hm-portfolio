@@ -1,25 +1,25 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Container, Row, Col} from 'react-grid-system'
+import { Container, Row, Col } from 'react-grid-system'
 import SlideToggle from "react-slide-toggle"
 import "react-step-progress-bar/styles.css"
-import {ProgressBar} from 'react-step-progress-bar'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faTerminal, faCode, faSignInAlt} from '@fortawesome/free-solid-svg-icons'
-import {faBtc, faGithub} from '@fortawesome/free-brands-svg-icons'
+import { ProgressBar } from 'react-step-progress-bar'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTerminal, faCode, faSignInAlt } from '@fortawesome/free-solid-svg-icons'
+import { faBtc, faGithub } from '@fortawesome/free-brands-svg-icons'
 
-import {Link} from "gatsby"
+import { Link } from "gatsby"
 
 
 class Main extends React.Component {
     render() {
-        let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
+        let close = <div className="close" onClick={() => { this.props.onCloseArticle() }}></div>
 
         return (
-            <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
+            <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
 
                 <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ?
-                    'timeout' : ''}`} style={{display: 'none'}}> <h2 className="major">Intro</h2> {/* <span className="image
+                    'timeout' : ''}`} style={{ display: 'none' }}> <h2 className="major">Intro</h2> {/* <span className="image
                     main"><img src={pic01} alt="" /></span> */}
                     <p>A <i>Graduate in Computer Science from Kings College London</i>. Learning
             and Engaging in the Future Proof Tuple that is <i>Blockchain, Web
@@ -85,7 +85,7 @@ class Main extends React.Component {
                     {close}
                 </article>
 
-                <article id="project" className={`${this.props.article === 'project' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display: 'none'}}>
+                <article id="project" className={`${this.props.article === 'project' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
                     <h2 className="major">Projects</h2>
                     <Container>
                         <Row>
@@ -115,13 +115,13 @@ class Main extends React.Component {
                                     <h4>Security Development</h4>
                                     <SlideToggle
                                         collapsed={true}
-                                        render={({onToggle, setCollapsibleElement, progress}) => (
+                                        render={({ onToggle, setCollapsibleElement, progress }) => (
                                             <div className="my-collapsible">
                                                 <button className="my-collapsible__toggle" onClick={onToggle}>
                                                     <FontAwesomeIcon icon={faTerminal} size={"lg"} />
                                                 </button>
                                                 <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                                                    <div className="my-collapsible__content-inner" style={{opacity: Math.max(0.1, progress)}}>
+                                                    <div className="my-collapsible__content-inner" style={{ opacity: Math.max(0.1, progress) }}>
                                                         <br />
                                 No ongoing development currently!
                             </div>
@@ -137,13 +137,13 @@ class Main extends React.Component {
                                     <h4>Web Development</h4>
                                     <SlideToggle
                                         collapsed={true}
-                                        render={({onToggle, setCollapsibleElement, progress}) => (
+                                        render={({ onToggle, setCollapsibleElement, progress }) => (
                                             <div className="my-collapsible">
                                                 <button className="my-collapsible__toggle" onClick={onToggle}>
                                                     <FontAwesomeIcon icon={faCode} size={"lg"} />
                                                 </button>
                                                 <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                                                    <div className="my-collapsible__content-inner" style={{opacity: Math.max(0.1, progress)}}>
+                                                    <div className="my-collapsible__content-inner" style={{ opacity: Math.max(0.1, progress) }}>
                                                         <br />
                                                         <a href="https://github.com/CodeForMMA/portfolio" target="_blank" rel="noopener noreferrer">
                                                             On going Development!
@@ -161,7 +161,7 @@ class Main extends React.Component {
                                     <h4>Blockchain Development</h4>
                                     <SlideToggle
                                         collapsed={true}
-                                        render={({onToggle, setCollapsibleElement, progress}) => (
+                                        render={({ onToggle, setCollapsibleElement, progress }) => (
                                             <div className="my-collapsible">
                                                 <button className="my-collapsible__toggle" onClick={onToggle}>
                                                     <div className="logo">
@@ -169,7 +169,7 @@ class Main extends React.Component {
                                                     </div>
                                                 </button>
                                                 <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                                                    <div className="my-collapsible__content-inner" style={{opacity: Math.max(0.1, progress)}}>
+                                                    <div className="my-collapsible__content-inner" style={{ opacity: Math.max(0.1, progress) }}>
                                                         <br />
                                 No ongoing development currently!
                             </div>
@@ -184,13 +184,13 @@ class Main extends React.Component {
                     {close}
                 </article>
 
-                <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display: 'none'}}>
+                <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
                     <h2 className="major">Blog</h2>
                     <div>
-                        <h3>
+                        <h4>
                             “Read in the name of your Lord Who created. He created man from a clot. Read and your Lord is Most Honorable, Who taught (to write) with the pen. Taught man what he knew not.”
-                        </h3>
-                        <center><h5 align="right"> - Al-'Alaq (The Clot) - The Holy Quran </h5></center>
+                        </h4>
+                        <center><h5 align="right"> - Al-'Alaq (The Clot) The Holy Quran </h5></center>
                     </div>
                     <div>
                         {/* Dotted lines under the text/icon */}
@@ -224,7 +224,7 @@ class Main extends React.Component {
                     {close}
                 </article>
 
-                <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display: 'none'}}>
+                <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
                     <h2 className="major">Contact</h2>
                     <form method="post" action="#">
                         <div className="field half first">
