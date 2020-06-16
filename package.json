@@ -1,6 +1,6 @@
 {
   "name": "mansour-jalaly-portfolio",
-  "description": "Mansour Jalaly - Portfolio",
+  "description": "Mansour Jalaly",
   "version": "2.1.1",
   "author": "Mansour Jalaly",
   "dependencies": {
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/CodeForMMA/portfolio"
   }
 }
