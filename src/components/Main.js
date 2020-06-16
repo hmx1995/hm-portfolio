@@ -187,18 +187,18 @@ class Main extends React.Component {
                 <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display: 'none'}}>
                     <h2 className="major">Blog</h2>
                     <div>
-                        <blockquote>
+                        <h3>
                             “Read in the name of your Lord Who created. He created man from a clot. Read and your Lord is Most Honorable, Who taught (to write) with the pen. Taught man what he knew not.”
-            <br />
-                            <br />
-            - Al-'Alaq (The Clot) - The Holy Quran
-            </blockquote>
+                        </h3>
+                        <center><h5 align="right"> - Al-'Alaq (The Clot) - The Holy Quran </h5></center>
                     </div>
                     <div>
                         {/* Dotted lines under the text/icon */}
                         {/* <center><Link to="/page-2"><button>Blog</button></Link></center> */}
                         {/* <center><Link to="https://www.google.com"><button><FontAwesomeIcon icon={faSignInAlt} size={"lg"} /></button></Link></center> */}
-                        <center><button><a href="/page-2" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faSignInAlt} size={"lg"} /></a></button></center>
+                        <center><button><a href="/blog" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faSignInAlt} size={"lg"} /></a></button></center>
+                        <br />
+                        <center><h6> Views expressed are of my own and not of my employer </h6></center>
                         {/* <center>
               <SlideToggle
                 collapsed={true}
@@ -253,7 +253,7 @@ class Main extends React.Component {
                     {close}
                 </article>
 
-            </div>
+            </div >
         )
     }
 }
