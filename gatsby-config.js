@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: "Mansour Jalaly",
+        title: "Jalaly™",
         author: "Mansour Jalaly",
         description: "Mansour Jalaly's world"
     },
