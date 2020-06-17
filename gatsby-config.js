@@ -18,6 +18,12 @@ module.exports = {
                 icon: 'src/images/MJ-icon.png', // This path is relative to the root of the site.
             },
         },
+        {
+            resolve: `gatsby-theme-blog`,
+            options: {
+                basePath: `/blog`,
+            },
+        },
         'gatsby-plugin-sass',
         'gatsby-plugin-offline',
         'gatsby-plugin-material-ui'
