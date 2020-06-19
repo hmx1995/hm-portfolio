@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: "Jalaly",
         author: "Mansour Jalaly",
-        description: "Jalaly Homepage",
+        description: "Jalaly Foundations Homepage",
         social: [
             {
                 name: `LinkdIn`,
