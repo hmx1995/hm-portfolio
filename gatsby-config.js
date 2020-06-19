@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: "Jalaly™",
+        title: "Jalaly",
         author: "Mansour Jalaly",
         description: "Jalay Foundations Homepage"
     },
@@ -16,6 +16,12 @@ module.exports = {
                 theme_color: '#663399',
                 display: 'minimal-ui',
                 icon: 'src/images/MJ-icon.png', // This path is relative to the root of the site.
+            },
+        },
+        {
+            resolve: `gatsby-theme-blog-test`,
+            options: {
+                basePath: `/blog`,
             },
         },
         'gatsby-plugin-sass',
