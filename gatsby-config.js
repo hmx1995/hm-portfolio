@@ -3,16 +3,6 @@ module.exports = {
         title: "Jalaly",
         author: "Mansour Jalaly",
         description: "Jalaly Foundations Homepage",
-        social: [
-            {
-                name: `LinkdIn`,
-                url: `https://twitter.com/gatsby`,
-            },
-            {
-                name: `Github`,
-                url: `https://github.com/gatsby`,
-            },
-        ],
     },
     plugins: [
         'gatsby-plugin-react-helmet',
