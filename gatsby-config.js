@@ -2,7 +2,17 @@ module.exports = {
     siteMetadata: {
         title: "Jalaly",
         author: "Mansour Jalaly",
-        description: "Jalay Foundations Homepage"
+        description: "The Jalaly Foundation Homepage",
+        social: [
+            {
+                name: `Twitter`,
+                url: `https://twitter.com/gatsbyjs`,
+            },
+            {
+                name: `GitHub`,
+                url: `https://github.com/gatsbyjs`,
+            },
+        ],
     },
     plugins: [
         'gatsby-plugin-react-helmet',
