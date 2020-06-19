@@ -1,5 +1,5 @@
 import merge from "deepmerge"
-import defaultTheme from "gatsby-theme-blog/src/gatsby-plugin-theme-ui/index"
+import defaultTheme from "gatsby-theme-blog-test/src/gatsby-plugin-theme-ui/index"
 export default merge(defaultTheme, {
     colors: {
         background: "#1d2425",
