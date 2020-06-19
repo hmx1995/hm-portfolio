@@ -19,7 +19,7 @@
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-sass": "^2.3.4",
     "gatsby-plugin-theme-ui": "^0.3.0",
-    "gatsby-theme-blog": "^1.6.43",
+    "gatsby-theme-blog": "^1.6.45",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
