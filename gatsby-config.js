@@ -29,7 +29,7 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-theme-blog`,
+            resolve: `gatsby-theme-blog-test`,
             options: {
                 basePath: `/blog`,
             },
