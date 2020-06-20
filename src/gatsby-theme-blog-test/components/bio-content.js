@@ -1,15 +1,13 @@
-import React, { Fragment } from "react"
-import { Styled } from "theme-ui"
+import React, {Fragment} from "react"
+import {Styled} from "theme-ui"
 export default function BioContent() {
     return (
-        <center>
-            <Fragment>
-                Written by <Styled.a href="https://www.linkedin.com/in/mansour-jalaly/" target="_blank" rel="noopener_noreferrer">Mansour Jalaly</Styled.a>.
+        <Fragment>
+            Written by <Styled.a href="https://www.linkedin.com/in/mansour-jalaly/" target="_blank" rel="noopener_noreferrer">Mansour Jalaly</Styled.a>.
             <br />
                 “Raise your words, not voice. It is rain that grows flowers, not thunder.”
-                <i> - Jalāl ad-Dīn Muhammad Rūmī </i>
-            </Fragment>
-        </center>
+            <i> - Jalāl ad-Dīn Muhammad Rūmī </i>
+        </Fragment>
     )
 }
 //The world is divided into men who have wit and no religion and men who have religion and no wit.
