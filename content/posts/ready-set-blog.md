@@ -1,19 +1,20 @@
 ---
 title: Ready, Set, Blog
 date: 2020-06-17
+excerpt: A How to on How to Blog
 ---
 I should fix the previews on these, because it sucks. Added this to my todoist. 
 
 ## The Blog
-I spent a good while on tuning the blog, and countless hours for the main
-screen. Learning the Gatsby framework was a uphill battle. Yet for someone who
+I spent a good while tuning this blog, not to mention the countless hours for the main
+site. Learning the Gatsby framework was a uphill battle. Yet for someone who
 hasn't touched the web development scene in almost a year I was quite impressed
 at the amount of React and general Gatsby framework shenganigans I could
 remember. 
 
 ## Whats next?
 I will be editing this post till im at the point where its seemingly intautive
-to just pop open a new .md file and write to my hearts content. So expect to
+to just pop open vim tab and write to my hearts content. So expect to
 see a lot of changes with the format of this post and the general theme of the
 blog.
 

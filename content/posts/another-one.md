@@ -1,6 +1,7 @@
 ---
 title: Another One
 date: 2020-06-19
+excerpt: Detailing how to post another post
 ---
 > - Another one - DJ Khalid
 
