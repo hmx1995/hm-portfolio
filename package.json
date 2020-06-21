@@ -12,6 +12,7 @@
     "@material-ui/styles": "^4.10.0",
     "@material/react-card": "^0.14.1",
     "bootstrap": "^4.5.0",
+    "deepmerge": "^4.2.2",
     "gatsby": "^2.23.3",
     "gatsby-plugin-manifest": "^2.4.11",
     "gatsby-plugin-material-ui": "^2.1.9",
@@ -30,7 +31,8 @@
     "react-slidedown": "^2.4.5",
     "react-step-progress-bar": "^1.0.3",
     "react-typist": "^2.0.5",
-    "react-typist-loop": "0.0.5"
+    "react-typist-loop": "0.0.5",
+    "theme-ui": "^0.3.1"
   },
   "keywords": [
     "gatsby"
