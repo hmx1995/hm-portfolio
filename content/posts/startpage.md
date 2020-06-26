@@ -1,10 +1,12 @@
 ---
 title: Startpage
 date: 2020-06-21
-excerpt: How I made my startpage using a single html file
+excerpt: A StartPage using HTML, CSS and JavaScript
 tags: ["html","javascript","css"]
 ---
-An honest run through on what I did to make the startpage
+I got bored of the same old Firefox "Previously Closed" and "Most Visited"
+categories whenever I opened up Firefox, so I thought lets make a StartPage
+that works for me. Below is what ensued. 
 
 ### Finding a template 
 Using a template is the easiest and fastest way to get started on developing, saves a lot time setting everything up.
@@ -29,7 +31,7 @@ The search bar didn't function, it was there as a placeholder. So I got cracking
 
 This is the snippet for the search bar:
 
-**HTML Search Bar**
+##### HTML SearchBar Snippet
 ```html
 <form action="https://duckduckgo.com/" method="get" onsubmit="return search()" id"ddg-search" action="https://www.duckduckgo.com/search" autocomplete="off">
     <input class="w3-input w3-center w3-section" data-name="q" id="field-3" maxlength="256" type="text" name="q" placeholder="Search" />
@@ -37,7 +39,7 @@ This is the snippet for the search bar:
 
 ```
 
-**JS Script for DuckDuckGo**
+##### JavaScript DuckDuckGo Search Snippet
 ```javascript
 function search() {
     let inputValue = document.getElementById('field-3').value;
@@ -60,4 +62,6 @@ function isDomain(value) {
 
 ### Using the page
 
-Now all you have to do is just apply the firefox settings to find your page and voila you've got a customised startpage
+Depending on where you have the file, all you need to do now is just point
+FireFox in the right direction and viola you should be seeing a your very own
+custom StartPage.

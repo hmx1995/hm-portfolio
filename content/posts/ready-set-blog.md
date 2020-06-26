@@ -3,7 +3,9 @@ title: Ready, Set, Blog
 date: 2020-06-17
 excerpt: A How to on How to Blog
 ---
-I should fix the previews on these, because it sucks. Added this to my todoist. 
+This is just a bunch of words on the screen to help me figure out what sort of
+theme would be nice for this blog. Yes thats right its just a facade of words
+in front of you. 
 
 ## The Blog
 I spent a good while tuning this blog, not to mention the countless hours for the main
