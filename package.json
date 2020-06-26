@@ -16,6 +16,7 @@
     "gatsby": "^2.23.3",
     "gatsby-plugin-manifest": "^2.4.11",
     "gatsby-plugin-material-ui": "^2.1.9",
+    "gatsby-plugin-mdx": "^1.2.18",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-sass": "^2.3.4",
