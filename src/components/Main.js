@@ -38,49 +38,59 @@ and Welterweight divisions</i>, as well as being an avid <i>strength and
 conditioning participant.</i></p>
 
                     <h3 className="major">Skills</h3>
+                    <h4>Javascript</h4>
+                    <span>
+                        <ProgressBar percent={90} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                    </span>
+                    <br />
+                    <h4>Java</h4>
+                    <span>
+                        <ProgressBar percent={90} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                    </span>
+                    <br />
                     <h4>HTML5/CSS3/SCSS</h4>
                     <span>
                         <ProgressBar percent={90} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
                     </span>
                     <br />
-                    <h4>JavaScript</h4>
+                    <h4>Python</h4>
+                    <span>
+                        <ProgressBar percent={80} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                    </span>
+                    <br />
+                    <h4>Perl</h4>
+                    <span>
+                        <ProgressBar percent={80} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                    </span>
+                    <br />
+                    <h4>C/C++</h4>
                     <span>
                         <ProgressBar percent={75} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
                     </span>
                     <br />
-                    <h4>Java</h4>
+                    <h4>SQL (MySQL)</h4>
                     <span>
                         <ProgressBar percent={70} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
                     </span>
                     <br />
-                    <h4>Python</h4>
-                    <span>
-                        <ProgressBar percent={65} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
-                    </span>
-                    <br />
-                    <h4>C</h4>
+                    <h4>GraphQL</h4>
                     <span>
                         <ProgressBar percent={60} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
                     </span>
                     <br />
-                    <h4>SQL (MySQL)</h4>
-                    <span>
-                        <ProgressBar percent={55} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
-                    </span>
-                    <br />
-                    <h4>GraphQL</h4>
-                    <span>
-                        <ProgressBar percent={55} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
-                    </span>
-                    <br />
                     <h4>Kali Linux</h4>
                     <span>
-                        <ProgressBar percent={50} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                        <ProgressBar percent={60} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
                     </span>
                     <br />
                     <h4>Corda</h4>
                     <span>
-                        <ProgressBar percent={40} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                        <ProgressBar percent={50} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                    </span>
+                    <br />
+                    <h4>Scala</h4>
+                    <span>
+                        <ProgressBar percent={50} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
                     </span>
                     {close}
                 </article>
