@@ -19,23 +19,26 @@ class Main extends React.Component {
             <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
                 <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ?
-                    'timeout' : ''}`} style={{display: 'none'}}> <h2 className="major">Intro</h2> {/* <span className="image
-main"><img src={pic01} alt="" /></span> */}
-                    <p>A <i>Graduate in Computer Science from Kings College London</i>. Learning
-and Engaging in the Future Proof Tuple that is <i>Blockchain, Web
-Development</i> and <i>Security Engineering</i>.</p>
-                    <p>Currently operating in the Security Engineering scene developing an <i>AI
-powered Network Intrusion Detection System</i>.</p>
+                    'timeout' : ''}`} style={{display: 'none'}}> <h2 className="major">Intro</h2> {/* <span className="image main"><img src={pic01} alt="" /></span> */}
+
+                    <p>A <i>Graduate in Computer Science from Kings College
+                    London</i>. Learning and Engaging in the Future Proof Tuple that is
+                    <i>Blockchain, Web Development</i> and <i>Security
+                    Engineering</i>.</p> <p>Currently operating in the Security
+                    Engineering scene developing an <i>AI powered Network Intrusion
+                    Detection System</i>.</p>
+
                     <p>Active on the Blockchain scene, with experience being a <i>Core
-Developer</i> as well as a <i>Technology Consultant</i> at <i>KCL
-Blockchain</i> an <i>Award Winning society at Kings College London. </i>
-Achieving podium position at <i>R3 Global Pitch Competition</i>,
-against Phd teams from world renown institutions such as <i>MIT,
-Cambridge, NYU, Oxford, Imperial.</i></p>
-                    <p>Due to the sedentary nature of my interests, my hobbies are more physically
-active. Partaking in <i>Brazilian Jui-Jitsu</i> competing in <i>Lightweight
-and Welterweight divisions</i>, as well as being an avid <i>strength and
-conditioning participant.</i></p>
+                    Developer</i> as well as a <i>Technology Consultant</i> at <i>KCL
+                    Blockchain</i> an <i>Award Winning society at Kings College London.
+                    </i> Achieving podium position at <i>R3 Global Pitch Competition</i>,
+                    against Phd teams from world renown institutions such as <i>MIT,
+                    Cambridge, NYU, Oxford, Imperial.</i></p>
+
+                    <p>Due to the sedentary nature of my interests, my hobbies are more
+                    physically active. Partaking in <i>Brazilian Jui-Jitsu</i> competing
+                    in <i>Lightweight and Welterweight divisions</i>, as well as being an
+                    avid <i>strength and conditioning participant.</i></p>
 
                     <h3 className="major">Skills</h3>
                     <h4>Javascript</h4>
@@ -133,8 +136,8 @@ conditioning participant.</i></p>
                                                 <div className="my-collapsible__content" ref={setCollapsibleElement}>
                                                     <div className="my-collapsible__content-inner" style={{opacity: Math.max(0.1, progress)}}>
                                                         <br />
-No ongoing development currently!
-</div>
+                                                        No ongoing development currently!
+                                                    </div>
                                                 </div>
                                             </div>
                                         )}
@@ -156,8 +159,8 @@ No ongoing development currently!
                                                     <div className="my-collapsible__content-inner" style={{opacity: Math.max(0.1, progress)}}>
                                                         <br />
                                                         <a href="https://github.com/CodeForMMA/portfolio" target="_blank" rel="noopener noreferrer">
-                                                            On going Development!
-</a>
+                                                            Gatsby Site (React, GraphQL Stack)
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -181,8 +184,10 @@ No ongoing development currently!
                                                 <div className="my-collapsible__content" ref={setCollapsibleElement}>
                                                     <div className="my-collapsible__content-inner" style={{opacity: Math.max(0.1, progress)}}>
                                                         <br />
-No ongoing development currently!
-</div>
+                                                        <a href="https://github.com/CodeForMMA/PythonBlockchain" target="_blank" rel="noopener noreferrer">
+                                                            Python Blockchain Implementation
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         )}
