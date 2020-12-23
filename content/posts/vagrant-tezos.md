@@ -20,10 +20,12 @@ Refer to Vagrants [documentation](https://www.vagrantup.com/docs/provisioning)
 if you get lost.
 
 ### External Scripts
-[External Scripts](https://www.vagrantup.com/docs/provisioning/shell#external-script)
-[Running on Reload](https://www.vagrantup.com/docs/provisioning/basic_usage#run-once-always-or-never)
+
+- [External Scripts](https://www.vagrantup.com/docs/provisioning/shell#external-script)
+- [Running on Reload](https://www.vagrantup.com/docs/provisioning/basic_usage#run-once-always-or-never)
 
 ## Ethereum Development
-[Local Development Enviroment for Ethereum](https://ethereum.org/en/developers/local-environment/)
+
+- [Local Development Enviroment for Ethereum](https://ethereum.org/en/developers/local-environment/)
 
 
