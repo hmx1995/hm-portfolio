@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Transaction Privacy 
-date: 2020-10-13
+date: 2020-12-29
 excerpt: A guide to making your bitcoin transactions private
 tags: ["Bitcoin", "Privacy", "CoinJoin"]
 ---
