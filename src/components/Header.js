@@ -11,21 +11,21 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Mansour Jalaly</h1>
-            <TypistLoop interval={500}>
-                {[
-                    'Kings College London Graduate ',
-                    'Blockchain Engineer ',
-                    'Security Engineer ',
-                    'Web Developer ',
-                    'BJJ 2nd Degree White Belt ',
-                ].map(text => 
-                    <Typist startDelay={700}
-                    cursor={{show:true, element:'▎'}}>
-                    {text}
-                    <Typist.Delay ms={500} />
-                    <Typist.Backspace count={text.length}/>
-                  </Typist>)}
-              </TypistLoop>
+                <TypistLoop interval={500}>
+                    {[
+                        'KCL Graduate ',
+                        'Blockchain Engineer ',
+                        'Security Engineer ',
+                        'Web Developer ',
+                        'Fighter ',
+                    ].map(text =>
+                        <Typist startDelay={700}
+                            cursor={{show: true, element: '▎'}}>
+                            {text}
+                            <Typist.Delay ms={500} />
+                            <Typist.Backspace count={text.length} />
+                        </Typist>)}
+                </TypistLoop>
             </div>
         </div>
         <nav>
