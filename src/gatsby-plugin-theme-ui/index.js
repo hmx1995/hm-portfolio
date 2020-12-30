@@ -64,6 +64,7 @@ export default merge(defaultTheme, {
         code: {
             fontFamily: 'monospace',
             fontSize: 'inherit',
+            color: 'white',
         },
         blockqoute: {
             fontFamily: 'body',
