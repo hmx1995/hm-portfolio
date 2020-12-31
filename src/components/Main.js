@@ -203,37 +203,14 @@ class Main extends React.Component {
                     <h2 className="major">Blog</h2>
                     <div>
                         <h4>
-                            “Read in the name of your Lord Who created. He created man from a clot. Read and your Lord is Most Honorable, Who taught (to write) with the pen. Taught man what he knew not.”
-</h4>
-                        <center><h5 align="right"> - Al-'Alaq (The Clot) The Holy Quran </h5></center>
+                            “Knowledge is the life of the mind.”
+                        </h4>
+                        <center><h5 align="right"> - Abu Bakr Siddique</h5></center>
                     </div>
                     <div>
-                        {/* Dotted lines under the text/icon */}
-                        {/* <center><Link to="/page-2"><button>Blog</button></Link></center> */}
-                        {/* <center><Link to="https://www.google.com"><button><FontAwesomeIcon icon={faSignInAlt} size={"lg"} /></button></Link></center> */}
                         <center><button><a href="/blog" rel="noopener noreferrer"><FontAwesomeIcon icon={faSignInAlt} size={"lg"} /></a></button></center>
                         <br />
-                        <center><h6> Views expressed are of my own and not of my employer </h6></center>
-                        {/* <center>
-<SlideToggle
-collapsed={true}
-render={({ onToggle, setCollapsibleElement, progress }) => (
-<div className="my-collapsible">
-<button className="my-collapsible__toggle" onClick={onToggle}>
-<div>
-Blog
-</div>
-</button>
-<div className="my-collapsible__content" ref={setCollapsibleElement}>
-<div className="my-collapsible__content-inner" style={{ opacity: Math.max(0.1, progress) }}>
-<br />
-Coming Soon!
-</div>
-</div>
-</div>
-)}
-/>
-</center> */}
+                        <center><h6> Press to Enter Blog </h6></center>
                     </div>
 
                     {close}
