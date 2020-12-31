@@ -1,7 +1,7 @@
 ---
 title: Bitcoin Transaction Privacy 
 date: 2020-12-29
-excerpt: A guide to making your bitcoin transactions private
+excerpt: What makes Bitcoin transactions private? 
 tags: ["Bitcoin", "Privacy", "CoinJoin"]
 ---
 
@@ -23,7 +23,7 @@ all the previous methods of breaking privacy harder.
 
 ## What is CoinJoin?
 
-`CoinJoin is a trustless method for combining multiple Bitcoin payments from
+>CoinJoin is a trustless method for combining multiple Bitcoin payments from
 multiple spenders into a single transaction to make it more difficult for
 outside parties to determine which spender paid which recipient or recipients.
 Unlike many other privacy solutions, coinjoin transactions do not require
