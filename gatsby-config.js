@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: "Jalaly",
-        author: "Mansour Jalaly",
-        description: "The Jalaly Foundation Homepage",
+        title: "Hassan",
+        author: "Hassan",
+        description: "Hassan Mustafa Homepage",
         social: [
             {
                 name: `Twitter`,
@@ -19,19 +19,19 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: 'mansour-jalaly-portfolio',
+                name: 'hassan-mustafa-portfolio',
                 short_name: 'portfolio',
                 start_url: '/',
                 background_color: '#663399',
                 theme_color: '#663399',
                 display: 'minimal-ui',
-                icon: 'src/images/MJ-icon.png', // This path is relative to the root of the site.
+                icon: 'src/images/hm.jpg', // This path is relative to the root of the site.
             },
         },
         {
             resolve: `gatsby-theme-blog-test`,
             options: {
-                basePath: `/blog`,
+                basePath: `/blog/new-content/new-content`,
             },
         },
         'gatsby-plugin-sass',
