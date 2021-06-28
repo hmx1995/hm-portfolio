@@ -3,14 +3,12 @@ import {Styled} from "theme-ui"
 export default function BioContent() {
     return (
         <Fragment>
-            Written by <Styled.a href="https://www.linkedin.com/in/mansour-jalaly/" target="_blank" rel="noopener_noreferrer">Mansour Jalaly</Styled.a>.
+            Written by <Styled.a href="https://www.linkedin.com/in/hassan-mustafa-4679b71a8/" target="_blank" rel="noopener_noreferrer">Hassan</Styled.a>.
             <br />
-                “Raise your words, not voice. It is rain that grows flowers, not thunder.”
-            <i> - Jalāl ad-Dīn Muhammad Rūmī </i>
+            "I’ve missed more than 9,000 shots in my career. I’ve lost almost 300 games. Twenty-six times I’ve been trusted to take the game-winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed".
+            <i> - Micheal Jordan </i>
         </Fragment>
     )
 }
-//The world is divided into men who have wit and no religion and men who have religion and no wit.
-//<i>- Avicenna </i>
-//“Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.”
+
 

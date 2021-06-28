@@ -21,79 +21,45 @@ class Main extends React.Component {
                 <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ?
                     'timeout' : ''}`} style={{display: 'none'}}> <h2 className="major">Intro</h2> {/* <span className="image main"><img src={pic01} alt="" /></span> */}
 
-                    <p>A <i>Graduate in Computer Science from Kings College
-                    London</i>. Learning and Engaging in the Future Proof Tuple that is
-                    <i>Blockchain, Web Development</i> and <i>Security
-                    Engineering</i>.</p> <p>Currently operating in the Security
-                    Engineering scene developing an <i>AI powered Network Intrusion
-                    Detection System</i>.</p>
+          <p>
+            Graduate in Computer Systems Engineering from Brunel University London.
+          </p>
+          <p>
+          I am a highly motivated and hardworking individual who is mechanically minded with a 
+          very methodical approach to working. I am keen to learn and develop my skills and enhance them 
+          further within a practical setting. I have a flexible approach to problem-solving and strong 
+          attention to detail. I enjoy working with all forms of technology, software and digital apps. 
+          </p>
 
-                    <p>Active on the Blockchain scene, with experience being a <i>Core
-                    Developer</i> as well as a <i>Technology Consultant</i> at <i>KCL
-                    Blockchain</i> an <i>Award Winning society at Kings College London.
-                    </i> Achieving podium position at <i>R3 Global Pitch Competition</i>,
-                    against Phd teams from world renown institutions such as <i>MIT,
-                    Cambridge, NYU, Oxford, Imperial.</i></p>
-
-                    <p>Due to the sedentary nature of my interests, my hobbies are more
-                    physically active. Partaking in <i>Brazilian Jui-Jitsu</i> competing
-                    in <i>Lightweight and Welterweight divisions</i>, as well as being an
-                    avid <i>strength and conditioning participant.</i></p>
-
-                    <h3 className="major">Skills</h3>
+          <h3 className="major">Skills</h3>
                     <h4>Javascript</h4>
                     <span>
-                        <ProgressBar percent={90} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                        <ProgressBar percent={90} filledBackground="linear-gradient(to right, red, orange, green)" />
                     </span>
                     <br />
                     <h4>Java</h4>
                     <span>
-                        <ProgressBar percent={90} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                        <ProgressBar percent={90} filledBackground="linear-gradient(to right, red, orange, green)" />
                     </span>
                     <br />
                     <h4>HTML5/CSS3/SCSS</h4>
                     <span>
-                        <ProgressBar percent={90} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                        <ProgressBar percent={90} filledBackground="linear-gradient(to right, red, orange, green)" />
                     </span>
                     <br />
                     <h4>Python</h4>
                     <span>
-                        <ProgressBar percent={80} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
-                    </span>
-                    <br />
-                    <h4>Perl</h4>
-                    <span>
-                        <ProgressBar percent={80} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                        <ProgressBar percent={80} filledBackground="linear-gradient(to right, red, orange, green)" />
                     </span>
                     <br />
                     <h4>C/C++</h4>
                     <span>
-                        <ProgressBar percent={75} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                        <ProgressBar percent={75} filledBackground="linear-gradient(to right, red, orange, green)" />
                     </span>
                     <br />
                     <h4>SQL (MySQL)</h4>
                     <span>
-                        <ProgressBar percent={70} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
-                    </span>
-                    <br />
-                    <h4>GraphQL</h4>
-                    <span>
-                        <ProgressBar percent={60} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
-                    </span>
-                    <br />
-                    <h4>Kali Linux</h4>
-                    <span>
-                        <ProgressBar percent={60} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
-                    </span>
-                    <br />
-                    <h4>Corda</h4>
-                    <span>
-                        <ProgressBar percent={50} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
-                    </span>
-                    <br />
-                    <h4>Scala</h4>
-                    <span>
-                        <ProgressBar percent={50} filledBackground="linear-gradient(to right, #000000, #ffffff)" />
+                        <ProgressBar percent={70} filledBackground="linear-gradient(to right, red, orange, green)" />
                     </span>
                     {close}
                 </article>
@@ -105,16 +71,16 @@ class Main extends React.Component {
                             <Col sm={12}>
                                 <center>
                                     <p>
-                                        Previous and Current Projects and Developments
+                                       Please find my projects listed below:  
 </p>
                                 </center>
                             </Col>
                         </Row>
                         <Row>
-                            <Col sm={12}>
+                            <Col sm={16}>
                                 <div className="icon">
                                     <center>
-                                        <a href="https://github.com/CodeForMMA" target="_blank" rel="noopener noreferrer" className="icon">
+                                        <a href="https://github.com/hmx1995" target="_blank" rel="noopener noreferrer" className="icon">
                                             <FontAwesomeIcon icon={faGithub} size={"4x"} />
                                         </a>
                                     </center>
@@ -122,10 +88,10 @@ class Main extends React.Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col sm={4}>
+                            <Col sm={6}>
                                 <center>
                                     <br />
-                                    <h4>Security Development</h4>
+                                    <h4>App Development</h4>
                                     <SlideToggle
                                         collapsed={true}
                                         render={({onToggle, setCollapsibleElement, progress}) => (
@@ -136,7 +102,7 @@ class Main extends React.Component {
                                                 <div className="my-collapsible__content" ref={setCollapsibleElement}>
                                                     <div className="my-collapsible__content-inner" style={{opacity: Math.max(0.1, progress)}}>
                                                         <br />
-                                                        No ongoing development currently!
+                                                        Development Coming Soon!
                                                     </div>
                                                 </div>
                                             </div>
@@ -144,7 +110,7 @@ class Main extends React.Component {
                                     />
                                 </center>
                             </Col>
-                            <Col sm={4}>
+                            <Col sm={6}>
                                 <center>
                                     <br />
                                     <h4>Web Development</h4>
@@ -158,7 +124,7 @@ class Main extends React.Component {
                                                 <div className="my-collapsible__content" ref={setCollapsibleElement}>
                                                     <div className="my-collapsible__content-inner" style={{opacity: Math.max(0.1, progress)}}>
                                                         <br />
-                                                        <a href="https://github.com/CodeForMMA/portfolio" target="_blank" rel="noopener noreferrer">
+                                                        <a href="https://github.com/hmx1995" target="_blank" rel="noopener noreferrer">
                                                             Gatsby Site (React, GraphQL Stack)
                                                         </a>
                                                     </div>
@@ -168,32 +134,7 @@ class Main extends React.Component {
                                     />
                                 </center>
                             </Col>
-                            <Col sm={4}>
-                                <center>
-                                    <br />
-                                    <h4>Blockchain Development</h4>
-                                    <SlideToggle
-                                        collapsed={true}
-                                        render={({onToggle, setCollapsibleElement, progress}) => (
-                                            <div className="my-collapsible">
-                                                <button className="my-collapsible__toggle" onClick={onToggle}>
-                                                    <div className="logo">
-                                                        <FontAwesomeIcon icon={faBtc} size={"lg"} />
-                                                    </div>
-                                                </button>
-                                                <div className="my-collapsible__content" ref={setCollapsibleElement}>
-                                                    <div className="my-collapsible__content-inner" style={{opacity: Math.max(0.1, progress)}}>
-                                                        <br />
-                                                        <a href="https://github.com/CodeForMMA/PythonBlockchain" target="_blank" rel="noopener noreferrer">
-                                                            Python Blockchain Implementation
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        )}
-                                    />
-                                </center>
-                            </Col>
+                            
                         </Row>
                     </Container>
                     {close}
@@ -203,12 +144,12 @@ class Main extends React.Component {
                     <h2 className="major">Blog</h2>
                     <div>
                         <h4>
-                            “Knowledge is the life of the mind.”
+                        “I'd rather attempt to do something great and fail then to attempt to do anothing and succeed.”
                         </h4>
-                        <center><h5 align="right"> - Abu Bakr Siddique</h5></center>
+                        <center><h5 align="right"> - Robert H schuller</h5></center>
                     </div>
                     <div>
-                        <center><button><a href="/blog" rel="noopener noreferrer"><FontAwesomeIcon icon={faSignInAlt} size={"lg"} /></a></button></center>
+                        <center><button><a href="/blog1" rel="noopener noreferrer"><FontAwesomeIcon icon={faSignInAlt} size={"lg"} /></a></button></center>
                         <br />
                         <center><h6> Press to Enter Blog </h6></center>
                     </div>
